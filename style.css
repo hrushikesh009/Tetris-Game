@@ -1,0 +1,145 @@
+body{
+    background-color: cadetblue;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif; 
+    letter-spacing: 10px;
+    color: lightcyan;
+}
+h2{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    color: lightcyan;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 610px;
+    height: 520px;
+    
+    flex-wrap: wrap;
+    background-color: cadetblue;
+    
+}
+
+.container_3{
+    margin-left: 100px;
+    background-color:lightcyan;
+    width:200px;
+    height:300px;
+    border-style: inset;
+    border-radius: 5px;
+    border-color:lightcyan;
+}
+.container_3 h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: cursive; 
+    color: cadetblue;
+
+}
+.container_3 p{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif; 
+    letter-spacing: 2px;
+    color: cadetblue;
+}
+.container_3 p1{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif; 
+    letter-spacing: 2px;
+    color: cadetblue;
+}
+.wrap{
+    margin-left: 130px;
+    margin-top: 30px;
+    background-color: lightcyan;
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+    border-width: 4px;
+    border-style: inset;
+    border-color: lightcyan;
+}
+
+.wrap_1{
+    margin-left: 100px;
+    margin-top: 13px;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: sans-serif; 
+    color: lightcyan;
+}
+
+#start-button{
+    background-color: crimson;
+    width: 130px;
+    height: 32px;
+    margin-left: 6px;
+    margin-top: 2px;
+    font-weight: bolder;
+    border-color: crimson;
+    border-radius: 4px;
+    border-width: 4px;
+    border-style: outset;
+    color:white;
+    
+
+}
+.grid{
+    
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: inset;
+    border-width: 6px;
+    border-radius: 4px;
+    border-color: lightcyan;
+    background-color:lightcyan;
+
+}
+
+.grid div{
+    width: 25px;
+    height: 25px;
+    
+}
+
+.mini-grid{
+    margin:auto;
+    width: 100px;
+    height:100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:lightcyan;
+
+}
+
+.mini-grid div{
+    width: 25px;
+    height: 25px;
+    
+    
+}
+
+
+.tetromino{
+    background-color:lightcyan;
+    border-radius: 4px;
+    
+    
+}
